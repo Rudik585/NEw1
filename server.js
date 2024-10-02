@@ -1,9 +1,12 @@
 const express = require('express');
+const expressLayouts = require('express-ejs-layouts');
 const path = require('path');
 
 const app = express();
 const PORT = 3000;
 
+app.use(expressLayouts);
+app.set('layout',  path.join(__dirname, 'views/layout'))
 app.set('views', path.join(__dirname, 'views'));
 
 app.set('view engine', 'ejs');
@@ -23,7 +26,7 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-  res.render('about', {
+  res.render('contact', {
     title: 'Contact',
     description: 'Contact us page'
   });

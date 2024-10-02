@@ -19,5 +19,20 @@
   <a href="#" class="button">Know More!</a>
 
   <script src="/js/scripts.js"></script>
+
+  <div>
+    <h2>About Our Company</h2>
+    <p>We are a company dedicated to building EJS examples.</p>
+    <h2><%= description %></h2>
+    <ul>
+        <% team.forEach(member => { %>
+            <li><%= member %></li>
+        <% }) %>
+    </ul>
+  </div>
+  <div>
+    <h2>Contact page</h2>
+  </div>
+
 </body>
 </html>

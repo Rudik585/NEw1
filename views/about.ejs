@@ -7,9 +7,17 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-  <h1><%= message %></h1>
-  <p>This is a dynamic page rendered using EJS template engine with CSS and JavaScript included!</p>
-  <a href="#" class="button">Click Me!</a>
+  <h1><%= title %></h1>
+  <p><%= description %></p>
+  <h2>Team Members:</h2>
+  <ul>
+    <% team.forEach(member => { %>
+      <li><%= member %></li>
+    <% }) %>
+  </ul>
+
+  <a href="#" class="button">Know More!</a>
+
   <script src="/js/scripts.js"></script>
 </body>
 </html>

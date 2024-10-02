@@ -1,9 +1,10 @@
 {
-  "name": "new-!!!!!!!",
+  "name": "education",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "server.js",
+"scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"nodemon\" \"browser-sync start --config bs-config.js\""
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
     "ejs": "^3.1.10",
     "express": "^4.21.0",
     "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7"
   }
 }

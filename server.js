@@ -1,5 +1,6 @@
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
+const browserSync = require('browser-sync');
 const path = require('path');
 
 const app = express();
@@ -34,4 +35,13 @@ app.get('/contact', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+browserSync.init({
+  proxy: `http://localhost:${PORT}`,
+  files: ["views/**/*.*", "public/**/*.*"],
+  port: 3001,
+  open: false,
+  notify: false,
+  reloadDelay: 500 
 });

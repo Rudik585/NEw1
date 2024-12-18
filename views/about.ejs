@@ -1,38 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-  <link rel="stylesheet" href="/styles/styles.css">
-</head>
-<body>
-  <h1><%= title %></h1>
-  <p><%= description %></p>
-  <h2>Team Members:</h2>
+<h1><%= title %></h1>
+<p><%= description %></p>
+<h2>Team Members:</h2>
+<ul>
+  <% team.forEach(member => { %>
+    <li><%= member %></li>
+  <% }) %>
+</ul>
+
+<a href="#" class="button">Know More!</a>
+
+<script src="/scripts/scripts.js"></script>
+
+<div>
+  <h2>About Our Company</h2>
+  <p>We are a company dedicated to building EJS examples.</p>
+  <h2><%= description %></h2>
   <ul>
     <% team.forEach(member => { %>
       <li><%= member %></li>
     <% }) %>
   </ul>
+</div>
+  
 
-  <a href="#" class="button">Know More!</a>
 
-  <script src="/scripts/scripts.js"></script>
-
-  <div>
-    <h2>About Our Company</h2>
-    <p>We are a company dedicated to building EJS examples.</p>
-    <h2><%= description %></h2>
-    <ul>
-        <% team.forEach(member => { %>
-            <li><%= member %></li>
-        <% }) %>
-    </ul>
-  </div>
-  <div>
-    <h2>Contact page</h2>
-  </div>
-
-</body>
-</html>

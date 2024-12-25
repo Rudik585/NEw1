@@ -17,3 +17,93 @@ body {
   }
 }
 
+
+* {
+  border: 1px solid red;
+}
+
+
+.header-container {
+  padding: 0 24px;
+  max-width: 1328px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 24px 0;
+  background-color: black;
+}
+
+
+
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  
+  
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  column-gap: 10px;
+  
+}
+
+.help-info {
+  border-right: 1px solid #4A4A4A;
+  padding-right: 10px;
+  padding: 10px;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  flex: 1;
+
+}
+
+.help-info> a{
+  color: #00E377;
+  text-decoration: none;
+} 
+
+
+.btn {
+  padding: 4px 8px ;
+  background-color: #4A4A4A;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+@media (max-width: 960px) {
+  .help-info {
+    display: none;
+  }
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  max-width: 142px;
+}
+
+.header-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.header-img__radius {
+  padding: 5px 5px;
+  
+}
+
+.header-img__radius:hover {
+  background-color: #00E377;
+
+}

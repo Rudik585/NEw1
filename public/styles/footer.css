@@ -2,7 +2,7 @@
 .footer-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 14px ; 
+    padding: 14px 0px ; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,12 +23,12 @@ footer {
     align-items: center;
 }
 
-.footer-link__items {
+.footer-links__item {
     color: #00E377;
     text-decoration: none;
 }
 
-.footer-link__items:hover {
+.footer-links__item:hover {
     text-decoration:underline
 }
 

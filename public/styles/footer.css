@@ -29,11 +29,26 @@ footer {
 }
 
 .footer-links__item:hover {
-    text-decoration:underline
+    text-decoration:underline;
+    
+}
+.footer-icons {
+    display: flex;
+    column-gap: 5px;
 }
 
 .footer-icons__item {
     text-decoration: none;
+}
+
+.footer-icons__item__svg {
+    color: #373737;
+    border-radius: 10px; 
+}
+
+.footer-icons__item__svg:hover {
+    border-radius: 5px;
+    color: #00E377;
 }
 
 @media (max-width: 640px) {

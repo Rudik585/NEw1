@@ -1,0 +1,90 @@
+.home {
+    padding: 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.home-title {
+    color: #262626;
+}
+
+.home-title__greetings,
+.home-title--main {
+    margin: 0;
+    padding: 2.5px 0px;
+} 
+
+.home-title--main  {
+    font-weight: 700;
+    font-size: 39px;
+}
+
+.home-title__greetings  {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.button {
+   display: block; 
+   text-decoration: none;
+   color: #373737;
+   border-radius: 4px;
+   border: #00E377 solid 1px;
+   padding: 14px 18px;
+   text-align: center;
+   background: linear-gradient(93.87deg, #00E377 -21.66%, #00C7EE 153.67%);;
+   font-weight: 400;
+   font-size: 16px;
+   width: 182px ;
+   
+}
+
+.button--secondary{
+   display: block; 
+   text-decoration: none;
+   color: #373737;
+   border-radius: 4px;
+   border: #00E377 solid 1px;
+   padding: 14px 18px;
+   font-weight: 400;
+   font-size: 16px;
+   width: 182px ;
+}
+
+.button--secondary:hover {
+    background: linear-gradient(93.87deg, #00C7EE  -21.66%, #00E377  153.67%);;
+}
+
+@media (max-width: 420px ) {
+    .button--secondary,
+    .button { 
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .button--secondary {
+        margin-bottom: 10px;
+    }
+} 
+
+.button:hover {
+    background: linear-gradient(93.87deg, #00C7EE -21.66% , #00E377 153.67% );;
+}
+
+.home-user-actions {
+    align-items: center;
+    display: flex;
+    column-gap: 8px ;
+    flex-wrap: wrap;
+}
+
+.body-text {
+    font-weight: 400;
+    font-size: 18px ;  
+    color: #A6A6A6;
+}

@@ -13,15 +13,14 @@
 }
 
 .home-title__greetings,
-.home-title__item--mein {
+.home-title--mein {
     margin: 0;
     padding: 2.5px 0px;
 } 
 
-.home-title__item--mein  {
+.home-title--mein  {
     font-weight: 700;
     font-size: 39px;
-    
 }
 
 .home-title__greetings  {

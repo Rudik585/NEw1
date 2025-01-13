@@ -13,12 +13,12 @@
 }
 
 .home-title__greetings,
-.home-title--mein {
+.home-title--main {
     margin: 0;
     padding: 2.5px 0px;
 } 
 
-.home-title--mein  {
+.home-title--main  {
     font-weight: 700;
     font-size: 39px;
 }

@@ -97,7 +97,7 @@
     margin-bottom: 14px;
 }
 
-.home-user-card {
+.home-user-cards {
     display: flex;
     
 }
@@ -195,7 +195,7 @@
 }
 
 @media(max-width: 1250px){
-    .home-user-card {
+    .home-user-cards {
         flex-wrap: wrap;
         
     }

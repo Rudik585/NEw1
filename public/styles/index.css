@@ -99,12 +99,12 @@
 
 .home-user-cards {
     display: flex;
-    
+    column-gap: 12px ;
+    row-gap: 12px; 
 }
 
 .home-user-card {
-    column-gap: 12px ;
-    row-gap: 12px; 
+    
 }
 
 .card-svg {

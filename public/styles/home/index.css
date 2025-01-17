@@ -1,6 +1,14 @@
+@import './checking-savings-account.css';
+@import './account-text.css';
+@import './user-actions.css';
+@import './title.css';
+@import './widgets-title.css';
+@import './user-business.css';
+
 .home-container {
     max-width: 1280px;
     margin: 0 auto; 
+    margin-bottom: 24px;
 }
 
 @media (max-width: 1328px) {

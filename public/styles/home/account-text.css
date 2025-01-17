@@ -1,0 +1,10 @@
+.home-user-row {
+    font-weight: 400 ;
+    font-size: 18px ;
+    color: #A6A6A6;
+}
+
+.home-user-row p {
+    margin: 0;
+    margin-bottom: 14px;
+}

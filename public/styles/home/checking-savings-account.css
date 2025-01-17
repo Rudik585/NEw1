@@ -1,0 +1,51 @@
+.home-user-card__info {
+    width: calc(50% - 8px);
+    border: #E8E9E9 solid 1px;
+    border-radius: 11px ;
+    position: relative;
+}
+
+.card-svg {
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card__info-row {
+    padding: 36px 67px 24px 30px  ;
+}
+
+.card-title-h1 {
+    margin-top: 0;
+    font-weight: 400 ;
+    font-size: 16px;
+    line-height: 16px;
+    color: #A6A6A6;
+    margin-bottom: 8px ;
+}
+
+.card-title {
+    column-gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.card-title-p {
+    font-weight: 600;
+    font-size: 18px ;
+    line-height: 18px ;
+}
+
+.card-title p {
+    margin: 0;
+}
+
+.card-money {
+    margin: 0;
+    font-weight: 700 ;
+    font-size: 32px;
+    padding: 0px 103px 36px 30px  ;
+}

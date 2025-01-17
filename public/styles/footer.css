@@ -12,7 +12,8 @@
     font-size: 14px;
 }
 
-footer {
+.footer { 
+    padding: 0px 24px;
     border-top: rgb(203, 203, 203) solid 1px;
 }
 

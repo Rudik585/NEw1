@@ -71,3 +71,64 @@
        max-width: 100%;
     }
 }
+
+.money-transfers {
+    max-width: 1280px;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+}
+
+@media (max-width: 1328px) {
+    .money-transfers {
+      margin: 0px 24px ;
+    }  
+}
+
+.transfers__text {
+    font-weight: 600 ;
+    font-size: 18px ;
+    line-height: 23.4px ;
+    color: #373737;
+}
+
+.profile-title {
+    display: flex;
+    column-gap: 20px;
+}
+
+.quick-profile {
+    max-width: 72.14px; 
+    max-height: 103px;
+}
+
+.block-profile {
+    display: inline-block;
+    text-align: center;
+}
+
+.block-profile__avatar {
+    position: relative;
+    display: inline-block;
+    padding: 0px 6.07px 9px 6.07px;
+}
+
+.avatar-svg {
+    position: absolute;
+    top: 41.27px;
+    left: 47.96px ;
+}
+
+.avatar-text {
+    margin: 0;
+    max-height: 36px ;
+    max-width: 72.14px ;
+    font-weight: 400 ;
+    font-size: 14px;
+    line-height: 18.2px ;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

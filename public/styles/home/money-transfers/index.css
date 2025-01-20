@@ -1,5 +1,5 @@
-@import './money-transfers-profile.css';
-@import './money-transfers-text.css';
+@import './profiles.css';
+@import './title.css';
 
 .money-transfers {
     max-width: 1280px;

@@ -75,7 +75,7 @@
 .money-transfers {
     max-width: 1280px;
     margin: 0 auto; 
-    margin-bottom: 24px;
+    
 }
 
 @media (max-width: 1328px) {
@@ -83,6 +83,12 @@
       margin: 0px 24px ;
     }  
 }
+
+.money-transfers-profile {
+    margin-bottom: 30px;
+}
+
+
 
 .transfers__text {
     font-weight: 600 ;
@@ -94,16 +100,31 @@
 .profile-title {
     display: flex;
     column-gap: 20px;
+    
 }
 
 .quick-profile {
-    max-width: 72.14px; 
+    min-width: 72.14px; 
+    max-width: 113.14px;
     max-height: 103px;
 }
 
 .block-profile {
     display: inline-block;
     text-align: center;
+    
+}
+
+@media (max-width:700px) {
+    .profile-title {
+        overflow-y: auto;
+        overflow-y: hidden;
+        margin-right: -24px;
+    }
+    .quick-profile {
+        min-height: 112px;
+        
+    }
 }
 
 .block-profile__avatar {
@@ -121,14 +142,20 @@
 .avatar-text {
     margin: 0;
     max-height: 36px ;
-    max-width: 72.14px ;
     font-weight: 400 ;
     font-size: 14px;
     line-height: 18.2px ;
+    color: #373737;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
-    text-overflow: ellipsis;
+    overflow-wrap: break-word;
 }
+
+.avatar-text:hover {
+    -webkit-line-clamp: none;
+    overflow: visible;
+}
+
 

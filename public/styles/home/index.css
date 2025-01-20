@@ -4,6 +4,8 @@
 @import './title.css';
 @import './widgets-title.css';
 @import './user-business.css';
+@import './money-transfers-text.css';
+@import './money-transfers-profile.css';
 
 .home-container {
     max-width: 1280px;
@@ -71,3 +73,6 @@
        max-width: 100%;
     }
 }
+
+
+

@@ -1,23 +1,40 @@
 {
-  "name": "education",
-  "version": "1.0.0",
-  "main": "server.js",
-"scripts": {
-    "start": "node server.js",
-    "dev": "concurrently \"nodemon\" \"browser-sync start --config bs-config.js\""
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.0",
-    "express-ejs-layouts": "^2.5.1"
-  },
-  "devDependencies": {
-    "browser-sync": "^3.0.3",
-    "concurrently": "^9.0.1",
-    "nodemon": "^3.1.7"
-  }
+    "name": "education",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "concurrently \"nodemon\" \"browser-sync start --config bs-config.js\"",
+        "prepare": "husky install",
+        "format": "prettier --write \"**/*.{js,css,ejs}\"",
+        "format:check": "prettier --check \"**/*.{js,css,ejs}\" --log-level=debug"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "ejs": "^3.1.10",
+        "express": "^4.21.0",
+        "express-ejs-layouts": "^2.5.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^3.0.3",
+        "concurrently": "^9.0.1",
+        "husky": "^9.1.7",
+        "lint-staged": "^15.4.1",
+        "nodemon": "^3.1.7",
+        "prettier": "^3.4.2",
+        "prettier-plugin-ejs": "^1.0.3"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.js": "prettier --check --log-level=debug",
+        "*.css": "prettier --check --log-level=debug",
+        "*.ejs": "prettier --check --log-level=debug"
+    }
 }

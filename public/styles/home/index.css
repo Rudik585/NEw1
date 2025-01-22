@@ -6,6 +6,8 @@
 @import './user-business.css';
 @import './money-transfers-text.css';
 @import './money-transfers-profile.css';
+@import './recent-activity-header.css';
+@import './activity-item.css';
 
 .home-container {
     max-width: 1280px;
@@ -74,7 +76,17 @@
     }
 }
 
+.recent-activity {
+    max-width: 1280px;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+}
 
+@media (max-width: 1328px) {
+    .recent-activity {
+      margin: 0px 24px ;
+    }  
+}
 
 
 

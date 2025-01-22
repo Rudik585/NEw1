@@ -1,5 +1,7 @@
 @import './profiles.css';
 @import './title.css';
+@import './recent-activity-header.css';
+@import './activity-item.css';
 
 .money-transfers {
     max-width: 1280px;
@@ -15,4 +17,16 @@
 
 .money-transfers-profile {
     margin-bottom: 30px;
+}
+
+.recent-activity {
+    max-width: 1280px;
+    margin: 0 auto; 
+    margin-bottom: 24px;
+}
+
+@media (max-width: 1328px) {
+    .recent-activity {
+      margin: 0px 24px ;
+    }  
 }

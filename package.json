@@ -7,7 +7,7 @@
         "dev": "concurrently \"nodemon\" \"browser-sync start --config bs-config.js\"",
         "prepare": "husky install",
         "format": "prettier --write \"**/*.{js,css,ejs}\"",
-        "format:check": "prettier --check \"**/*.{js,css,ejs}\" --log-level=debug"
+        "format:check": "prettier --check \"**/*.{js,css,ejs}\" --log-level=warn"
     },
     "keywords": [],
     "author": "",
@@ -33,8 +33,8 @@
         }
     },
     "lint-staged": {
-        "*.js": "prettier --check --log-level=debug",
-        "*.css": "prettier --check --log-level=debug",
-        "*.ejs": "prettier --check --log-level=debug"
+        "*.js": "prettier --check --log-level=warn",
+        "*.css": "prettier --check --log-level=warn",
+        "*.ejs": "prettier --check --log-level=warn"
     }
 }

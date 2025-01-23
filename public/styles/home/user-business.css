@@ -1,9 +1,9 @@
 .user-business {
     width: 100%;
     display: flex;
-    border: 1px solid #36E18F;
+    border: 1px solid #36e18f;
     border-radius: 11px;
-    background-color: #00C7EE0D;
+    background-color: #00c7ee0d;
 }
 
 .business-svg {
@@ -12,7 +12,6 @@
 
 .business-title {
     padding: 24px 26px 24px 0px;
-
 }
 
 .business-text-h1 {
@@ -40,10 +39,10 @@
     align-items: center;
     column-gap: 13px;
     border-radius: 17px;
-    background-color: #03EE7D1A;
+    background-color: #03ee7d1a;
     padding: 8px 16px 8px 16px;
     text-decoration: none;
-    color: #00E377;
+    color: #00e377;
 }
 
 .business-link-row:hover {

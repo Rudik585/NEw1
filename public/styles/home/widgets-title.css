@@ -1,6 +1,5 @@
 .home-widgets {
     margin-top: 24px;
-
 }
 
 .home-widgets__title {
@@ -20,10 +19,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20.8px;
-    color: #00E377;
+    color: #00e377;
     text-decoration: none;
     padding: 6px 15px;
-    background-color: #03EE7D17;
+    background-color: #03ee7d17;
     border-radius: 27px;
 }
 
@@ -43,7 +42,7 @@
     height: 112px;
     min-width: 133.33px;
     flex: 1 1 0;
-    border: 1px solid #E8E9E9;
+    border: 1px solid #e8e9e9;
     border-radius: 11px;
     align-content: center;
     max-width: 181px;

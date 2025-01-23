@@ -1,25 +1,20 @@
 <div class="home-container">
-  <div class="home">
-    <%- include('home/title') %>
-      <%- include('home/user-actions') %>
-  </div>
+    <div class="home">
+        <%- include('home/title') %> <%- include('home/user-actions') %>
+    </div>
 
-  <div class="home-user-stats">
-    <%- include('home/account-text') %>
-      <div class="home-user-cards">
-        <%- include('home/checking-account') %>
+    <div class="home-user-stats">
+        <%- include('home/account-text') %>
+        <div class="home-user-cards">
+            <%- include('home/checking-account') %> <%-
+            include('home/savings-account') %> <%- include('home/user-business')
+            %>
+        </div>
+    </div>
 
-          <%- include('home/savings-account') %>
-
-            <%- include('home/user-business') %>
-      </div>
-  </div>
-
-  <div class="home-widgets">
-    <%- include('home/widgets-title') %>
-  </div>
+    <div class="home-widgets"><%- include('home/widgets-title') %></div>
 </div>
 
 <%- include('home/money-transfers/index') %>
 
-  <%- include('home/recent-activity/index') %>
+<%- include('home/recent-activity/index') %>

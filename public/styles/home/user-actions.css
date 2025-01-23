@@ -10,15 +10,13 @@
     text-decoration: none;
     color: #373737;
     border-radius: 4px;
-    border: #00E377 solid 1px;
+    border: #00e377 solid 1px;
     padding: 14px 18px;
     text-align: center;
-    background: linear-gradient(93.87deg, #00E377 -21.66%, #00C7EE 153.67%);
-    ;
+    background: linear-gradient(93.87deg, #00e377 -21.66%, #00c7ee 153.67%);
     font-weight: 400;
     font-size: 16px;
     width: 182px;
-
 }
 
 .button--secondary {
@@ -26,7 +24,7 @@
     text-decoration: none;
     color: #373737;
     border-radius: 4px;
-    border: #00E377 solid 1px;
+    border: #00e377 solid 1px;
     padding: 14px 18px;
     font-weight: 400;
     font-size: 16px;
@@ -34,12 +32,10 @@
 }
 
 .button--secondary:hover {
-    background: linear-gradient(93.87deg, #00C7EE -21.66%, #00E377 153.67%);
-    ;
+    background: linear-gradient(93.87deg, #00c7ee -21.66%, #00e377 153.67%);
 }
 
 @media (max-width: 420px) {
-
     .button--secondary,
     .button {
         margin: 0 auto;
@@ -53,6 +49,5 @@
 }
 
 .button:hover {
-    background: linear-gradient(93.87deg, #00C7EE -21.66%, #00E377 153.67%);
-    ;
+    background: linear-gradient(93.87deg, #00c7ee -21.66%, #00e377 153.67%);
 }

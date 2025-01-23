@@ -11,10 +11,9 @@
 .block-profile {
     display: inline-block;
     text-align: center;
-
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
     .profile-title {
         overflow-y: auto;
         overflow-y: hidden;
@@ -23,7 +22,6 @@
 
     .quick-profile {
         min-height: 112px;
-
     }
 }
 

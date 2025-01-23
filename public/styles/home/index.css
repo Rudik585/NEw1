@@ -40,18 +40,15 @@
     row-gap: 12px;
 }
 
-@media(max-width: 1250px) {
+@media (max-width: 1250px) {
     .home-user-cards {
         flex-wrap: wrap;
-
     }
-
 }
 
-@media(max-width: 670px) {
+@media (max-width: 670px) {
     .home-user-cards {
         flex-direction: column;
-
     }
 
     .home-user-card__info {
@@ -59,7 +56,7 @@
     }
 }
 
-@media(max-width: 420px) {
+@media (max-width: 420px) {
     .business-svg-w {
         width: 45px;
     }
@@ -69,7 +66,7 @@
     }
 }
 
-@media(max-width:325px) {
+@media (max-width: 325px) {
     .widgets-icon {
         max-width: 100%;
     }

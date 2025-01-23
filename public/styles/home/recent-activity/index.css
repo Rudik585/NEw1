@@ -2,13 +2,13 @@
 @import './activity-item.css';
 
 .recent-activity {
-  max-width: 1280px;
-  margin: 0 auto;
-  margin-bottom: 24px;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 1328px) {
-  .recent-activity {
-    margin: 0px 24px;
-  }
+    .recent-activity {
+        margin: 0px 24px;
+    }
 }

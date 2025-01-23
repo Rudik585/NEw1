@@ -24,13 +24,12 @@
 }
 
 .footer-links__item {
-    color: #00E377;
+    color: #00e377;
     text-decoration: none;
 }
 
 .footer-links__item:hover {
     text-decoration: underline;
-
 }
 
 .footer-icons {
@@ -49,7 +48,7 @@
 
 .footer-icons__item__svg:hover {
     border-radius: 5px;
-    color: #00E377;
+    color: #00e377;
 }
 
 @media (max-width: 640px) {

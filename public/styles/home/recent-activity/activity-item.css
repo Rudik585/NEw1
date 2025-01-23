@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     max-width: 912px;
-    border: #E8E9E9 solid 1px;
+    border: #e8e9e9 solid 1px;
     border-radius: 11px;
     justify-content: space-between;
     margin-bottom: 4px;
@@ -38,7 +38,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px;
-    color: #A6A6A6;
+    color: #a6a6a6;
 }
 
 .activity-item__details {
@@ -63,7 +63,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18.2px;
-    color: #A6A6A6;
+    color: #a6a6a6;
     display: flex;
     justify-content: right;
 }
@@ -76,5 +76,5 @@
     color: #373737;
     display: flex;
     justify-content: right;
-    color: #00E377;
+    color: #00e377;
 }

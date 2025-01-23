@@ -3,30 +3,30 @@
     display: flex;
     border: 1px solid #36E18F;
     border-radius: 11px;
-    background-color: #00C7EE0D ;
+    background-color: #00C7EE0D;
 }
 
-.business-svg{
+.business-svg {
     padding: 37.52px 23px 37.52px 26px;
 }
 
 .business-title {
     padding: 24px 26px 24px 0px;
-    
+
 }
 
 .business-text-h1 {
     font-weight: 700;
-    font-size: 20px ;
+    font-size: 20px;
     line-height: 28px;
     margin: 0;
     margin-bottom: 4px;
 }
 
 .business-text-p {
-    font-weight: 400 ;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 22.4px ;
+    line-height: 22.4px;
     margin: 0;
     margin-bottom: 9px;
     justify-content: space-between;
@@ -34,16 +34,16 @@
 
 .business-link-row {
     font-weight: 500;
-    font-size: 16px ;
-    line-height: 22.4px ;
+    font-size: 16px;
+    line-height: 22.4px;
     display: inline-flex;
     align-items: center;
     column-gap: 13px;
     border-radius: 17px;
     background-color: #03EE7D1A;
-    padding: 8px 16px 8px 16px ;
+    padding: 8px 16px 8px 16px;
     text-decoration: none;
-    color: #00E377 ;
+    color: #00E377;
 }
 
 .business-link-row:hover {

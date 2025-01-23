@@ -1,18 +1,18 @@
 .activity-item {
     display: flex;
     align-items: center;
-    max-width: 912px ;
-    border: #E8E9E9 solid 1px ;
+    max-width: 912px;
+    border: #E8E9E9 solid 1px;
     border-radius: 11px;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-bottom: 4px;
 }
 
 .activity-item__bill {
     align-items: center;
     display: flex;
-    padding-top: 16px ;
-    padding-bottom: 14px ;
+    padding-top: 16px;
+    padding-bottom: 14px;
 }
 
 .activity-item__icon {
@@ -23,28 +23,28 @@
 
 .activity-item__header {
     row-gap: 1px;
-    padding-left: 14px ;
+    padding-left: 14px;
 }
 
 .activity-item__name {
     margin: 0;
-    font-weight: 400 ;
-    font-size: 16px ;
-    line-height: 20.8px ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
 }
 
 .activity-item__description {
     margin: 0;
-    font-weight: 400 ;
-    font-size: 14px ;
-    line-height: 18.2px ;
-    color: #A6A6A6 ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #A6A6A6;
 }
 
 .activity-item__details {
-    padding-right: 16px ;
-    padding-top: 16px ;
-    padding-bottom: 14px ;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 14px;
     row-gap: 1px;
 }
 
@@ -52,7 +52,7 @@
     margin: 0;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20.8px ;
+    line-height: 20.8px;
     color: #373737;
     display: flex;
     justify-content: right;
@@ -60,10 +60,10 @@
 
 .activity-item__transaction-date {
     margin: 0;
-    font-weight: 400 ;
-    font-size: 14px ;
-    line-height: 18.2px ;
-    color: #A6A6A6 ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+    color: #A6A6A6;
     display: flex;
     justify-content: right;
 }
@@ -72,7 +72,7 @@
     margin: 0;
     font-weight: 600;
     font-size: 16px;
-    line-height: 20.8px ;
+    line-height: 20.8px;
     color: #373737;
     display: flex;
     justify-content: right;

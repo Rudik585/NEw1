@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(expressLayouts);
-app.set('layout',  path.join(__dirname, 'views/layout'))
+app.set('layout', path.join(__dirname, 'views/layout'))
 app.set('views', path.join(__dirname, 'views'));
 
 app.set('view engine', 'ejs');
@@ -43,5 +43,5 @@ browserSync.init({
   port: 3001,
   open: false,
   notify: false,
-  reloadDelay: 500 
+  reloadDelay: 500
 });

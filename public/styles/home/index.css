@@ -71,3 +71,37 @@
         max-width: 100%;
     }
 }
+
+.card-functionality {
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    column-gap: 30px;
+}
+
+@media (max-width: 1328px) {
+    .card-functionality {
+        margin: 0px 24px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .card-functionality {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1205px) {
+    .card-functionality {
+        flex-wrap: wrap;
+    }
+}
+
+.transaction-history {
+    width: 100%;
+}
+
+.credit-history {
+    width: 100%;
+}

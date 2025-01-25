@@ -1,0 +1,59 @@
+.upcoming-payments__bill {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e8e9e9;
+    border-radius: 11px;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.upcoming-payments__block {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.upcoming-payments__icon {
+    margin-left: 16px;
+}
+
+.upcoming-payments__item {
+    row-gap: 1px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.upcoming-payments__name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    color: #373737;
+}
+
+.transaction-date__gren {
+    color: #00e377;
+}
+
+.upcoming-payments__transaction-date {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+}
+
+.transaction-date__grey {
+    color: #a6a6a6;
+}
+
+.upcoming-payments__scheduled-payment {
+    margin-right: 16px;
+}
+
+.upcoming-payments__transaction-amount {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    color: #373737;
+}

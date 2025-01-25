@@ -1,0 +1,15 @@
+@import './card-links.css';
+@import './header-card.css';
+@import './card-details.css';
+
+@media (max-width: 540px) {
+    .credit-card__information {
+        flex-wrap: wrap;
+    }
+}
+
+.credit-card__information {
+    display: flex;
+    column-gap: 33px;
+    row-gap: 33px;
+}

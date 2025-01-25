@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 14px;
-    max-width: 912px;
 }
 
 .recent-activity__title {
@@ -20,6 +19,7 @@
     line-height: 20.8px;
     text-decoration: none;
     color: #00e377;
+    text-align: right;
 }
 
 .recent-activity__link:hover {

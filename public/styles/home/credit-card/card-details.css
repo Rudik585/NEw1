@@ -1,0 +1,70 @@
+.credit-card__details {
+    background: linear-gradient(
+        125.33deg,
+        #03ee7d 11.7%,
+        #00d8cb 64.24%,
+        #0dc76e 107.63%,
+        #028848 169.32%
+    );
+    min-width: 287px;
+    height: 172px;
+    border-radius: 11px;
+    position: relative;
+}
+
+.credit-card__watermark {
+    position: absolute;
+    left: 122px;
+    top: 24px;
+}
+
+@media (max-width: 335px) {
+    .credit-card__details {
+        height: 172px;
+        min-width: 272px;
+        position: relative;
+    }
+
+    .credit-card__watermark {
+        position: absolute;
+        left: 106px;
+        top: 24px;
+    }
+}
+
+.credit-card__nfs {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.credit-card__name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 28px 53px 0px 20px;
+}
+
+.credit-card__text {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.credit-card__bank-number {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.credit-card__money {
+    margin: 0;
+    position: absolute;
+    left: 20px;
+    bottom: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}

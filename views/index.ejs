@@ -15,6 +15,13 @@
     <div class="home-widgets"><%- include('home/widgets-title') %></div>
 </div>
 
-<%- include('home/money-transfers/index') %>
-
-<%- include('home/recent-activity/index') %>
+<div class="card-functionality">
+    <div class="transaction-history">
+        <%- include('home/money-transfers/index') %> <%-
+        include('home/recent-activity/index') %>
+    </div>
+    <div class="credit-history">
+        <%- include('home/credit-card/index') %> <%-
+        include('home/upcoming-payments/index') %>
+    </div>
+</div>

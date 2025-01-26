@@ -1,10 +1,11 @@
 .profile-title {
     display: flex;
     column-gap: 20px;
+    justify-content: space-between;
 }
 
 .quick-profile {
-    max-width: 72.14px;
+    min-width: 72px;
     max-height: 103px;
 }
 

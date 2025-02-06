@@ -1,0 +1,57 @@
+.active.menu__language-button svg {
+    transform: rotate(-180deg);
+    transition: 0.5s;
+}
+
+.menu__language-icon {
+    transition: 0.5s;
+}
+
+.menu__language-button {
+    padding: 4px 8px;
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+    transform: rotate(0);
+    transition: 0.5s;
+}
+
+.menu__button-details.active {
+    display: flex;
+}
+
+.menu__button-details {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    right: 188px;
+    top: 33px;
+    row-gap: 1px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    background-color: #262626;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+.button-details__styles {
+    padding: 4px 20px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button-details__styles:hover {
+    background-color: #4a4a4a;
+}

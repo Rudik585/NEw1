@@ -13,9 +13,17 @@
                 <div class="menu">
                     <div class="help-info">
                         <a href="/">Need any Help?</a>
-                        <button class="btn">
+                        <button
+                            aria-label="change-language"
+                            aria-expanded="false"
+                            aria-controls="languages-dropdown"
+                            id="language-switch"
+                            class="btn btn-svg btn-icons"
+                        >
                             <span>ENG</span>
                             <svg
+                                class="svgg"
+                                id="hov"
                                 width="9"
                                 height="6"
                                 viewBox="0 0 9 6"
@@ -32,6 +40,7 @@
                             </svg>
                         </button>
                     </div>
+                    <%- include('language-switch') %>
                     <div class="header-icons">
                         <a
                             class="header-img__radius"

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const languageButton = document.querySelector('#language-button');
     const languageDropdown = document.querySelector('#languages-dropdown');
-    const profileButton = document.querySelector('#avatar-button');
+    const avatarButton = document.querySelector('#avatar-button');
     const avatarDropdown = document.querySelector('#avatar-dropdown');
     const messagesButton = document.querySelector('#messages-button');
     const messagesDropdown = document.querySelector('#messages-dropdown');
@@ -30,21 +30,21 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    profileButton.addEventListener('click', () => {
+    avatarButton.addEventListener('click', () => {
         if (avatarDropdown.classList.contains('avatar-active') == true) {
             avatarDropdown.classList.remove('avatar-active');
         } else {
             avatarDropdown.classList.add('avatar-active');
         }
-        if (profileButton.classList.contains('avatar-active') == true) {
-            profileButton.classList.remove('avatar-active');
+        if (avatarButton.classList.contains('avatar-active') == true) {
+            avatarButton.classList.remove('avatar-active');
         } else {
-            profileButton.classList.add('avatar-active');
+            avatarButton.classList.add('avatar-active');
         }
-        if (profileButton.getAttribute('aria-expanded') == 'true') {
-            profileButton.setAttribute('aria-expanded', 'false');
+        if (avatarButton.getAttribute('aria-expanded') == 'true') {
+            avatarButton.setAttribute('aria-expanded', 'false');
         } else {
-            profileButton.setAttribute('aria-expanded', 'true');
+            avatarButton.setAttribute('aria-expanded', 'true');
         }
     });
     messagesButton.addEventListener('click', () => {

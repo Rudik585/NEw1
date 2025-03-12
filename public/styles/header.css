@@ -55,20 +55,3 @@
     height: auto;
     max-width: 142px;
 }
-
-.header-icons {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.header-img__radius {
-    padding: 5px 5px;
-    color: white;
-}
-
-.header-img__radius:hover {
-    background-color: #4a4a4a;
-    border-radius: 5px;
-    color: #00e377;
-}

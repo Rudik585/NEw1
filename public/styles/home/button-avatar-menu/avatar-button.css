@@ -1,0 +1,15 @@
+.menu__avatar-img {
+    position: relative;
+    display: contents;
+    cursor: pointer;
+}
+
+.menu__avatar-img img {
+    border: 1px solid #262626;
+    border-radius: 20px;
+}
+
+.avatar-active img {
+    border-radius: 20px;
+    border: #00e377 1px solid;
+}

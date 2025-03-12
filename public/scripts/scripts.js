@@ -1,28 +1,86 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const button = document.querySelector('.button');
-    button.addEventListener('click', () => {
-        alert('Button was clicked!');
+    const languageButton = document.querySelector('#language-button');
+    const languageDropdown = document.querySelector('#languages-dropdown');
+    const avatarButton = document.querySelector('#avatar-button');
+    const avatarDropdown = document.querySelector('#avatar-dropdown');
+    const messagesButton = document.querySelector('#messages-button');
+    const messagesDropdown = document.querySelector('#messages-dropdown');
+    const notificationButton = document.querySelector('#notification-button');
+    const notificationDropdown = document.querySelector(
+        '#notification-dropdown'
+    );
+    const settingsButton = document.querySelector('#settings-button');
+    const settingsDropdown = document.querySelector('#settings-dropdown');
+
+    languageButton.addEventListener('click', () => {
+        if (languageDropdown.classList.contains('active') == true) {
+            languageDropdown.classList.remove('active');
+        } else {
+            languageDropdown.classList.add('active');
+        }
+        if (languageButton.classList.contains('active') == true) {
+            languageButton.classList.remove('active');
+        } else {
+            languageButton.classList.add('active');
+        }
+        if (languageButton.getAttribute('aria-expanded') == 'true') {
+            languageButton.setAttribute('aria-expanded', 'false');
+        } else {
+            languageButton.setAttribute('aria-expanded', 'true');
+        }
     });
 
-    const btn = document.querySelector('#language-switch');
-    const language = document.querySelector('#languages-dropdown');
-    const hov = document.querySelector('#hov');
-
-    btn.addEventListener('click', () => {
-        if (language.classList.contains('active') == true) {
-            language.classList.remove('active');
+    avatarButton.addEventListener('click', () => {
+        if (avatarDropdown.classList.contains('avatar-active') == true) {
+            avatarDropdown.classList.remove('avatar-active');
         } else {
-            language.classList.add('active');
+            avatarDropdown.classList.add('avatar-active');
         }
-        if (btn.classList.contains('active') == true) {
-            btn.classList.remove('active');
+        if (avatarButton.classList.contains('avatar-active') == true) {
+            avatarButton.classList.remove('avatar-active');
         } else {
-            btn.classList.add('active');
+            avatarButton.classList.add('avatar-active');
         }
-        if (btn.getAttribute('aria-expanded') == 'true') {
-            btn.setAttribute('aria-expanded', 'false');
+        if (avatarButton.getAttribute('aria-expanded') == 'true') {
+            avatarButton.setAttribute('aria-expanded', 'false');
         } else {
-            btn.setAttribute('aria-expanded', 'true');
+            avatarButton.setAttribute('aria-expanded', 'true');
+        }
+    });
+    messagesButton.addEventListener('click', () => {
+        if (messagesDropdown.classList.contains('header-active') == true) {
+            messagesDropdown.classList.remove('header-active');
+        } else {
+            messagesDropdown.classList.add('header-active');
+        }
+        if (messagesButton.getAttribute('aria-expanded') == 'true') {
+            messagesButton.setAttribute('aria-expanded', 'false');
+        } else {
+            messagesButton.setAttribute('aria-expanded', 'true');
+        }
+    });
+    notificationButton.addEventListener('click', () => {
+        if (notificationDropdown.classList.contains('header-active') == true) {
+            notificationDropdown.classList.remove('header-active');
+        } else {
+            notificationDropdown.classList.add('header-active');
+        }
+        if (notificationButton.getAttribute('aria-expanded') == 'true') {
+            notificationButton.setAttribute('aria-expanded', 'false');
+        } else {
+            notificationButton.setAttribute('aria-expanded', 'true');
+        }
+    });
+    settingsButton.addEventListener('click', () => {
+        if (settingsDropdown.classList.contains('header-active') == true) {
+            settingsDropdown.classList.remove('header-active');
+        } else {
+            settingsDropdown.classList.add('header-active');
+        }
+        if (settingsButton.getAttribute('aria-expanded') == 'true') {
+            settingsButton.setAttribute('aria-expanded', 'false');
+        } else {
+            settingsButton.setAttribute('aria-expanded', 'true');
         }
     });
 });

@@ -16,11 +16,7 @@
                         <%- include('button-language/index') %>
                     </div>
                     <div class="header-icons">
-                        <a
-                            class="header-img__radius"
-                            href
-                            aria-label="Search Page"
-                        >
+                        <a class="header__button" href aria-label="Search Page">
                             <svg
                                 width="21"
                                 height="20"
@@ -37,8 +33,9 @@
                                 />
                             </svg>
                         </a>
-                        <a
-                            class="header-img__radius"
+                        <button
+                            id="messages"
+                            class="header__button"
                             href
                             aria-label="messages"
                         >
@@ -64,9 +61,33 @@
                                     stroke-linejoin="round"
                                 />
                             </svg>
-                        </a>
-                        <a
-                            class="header-img__radius"
+                        </button>
+                        <div
+                            id="messages-menu"
+                            class="header__button-icons messages__items"
+                        >
+                            <a
+                                href="#"
+                                class="header__button-icon messages__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon messages__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon messages__item"
+                            >
+                                item
+                            </a>
+                        </div>
+                        <button
+                            id="notification"
+                            class="header__button"
                             href
                             aria-label="notification"
                         >
@@ -103,9 +124,33 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                        </a>
-                        <a
-                            class="header-img__radius"
+                        </button>
+                        <div
+                            id="notification-menu"
+                            class="header__button-icons notification__items"
+                        >
+                            <a
+                                href="#"
+                                class="header__button-icon notification__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon notification__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon notification__item"
+                            >
+                                item
+                            </a>
+                        </div>
+                        <button
+                            id="settings"
+                            class="header__button"
                             href
                             aria-label="settings"
                         >
@@ -131,9 +176,32 @@
                                     stroke-linejoin="round"
                                 />
                             </svg>
-                        </a>
+                        </button>
+                        <div
+                            id="settings-menu"
+                            class="header__button-icons settings__items"
+                        >
+                            <a
+                                href="#"
+                                class="header__button-icon settings__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon settings__item"
+                            >
+                                item
+                            </a>
+                            <a
+                                href="#"
+                                class="header__button-icon settings__item"
+                            >
+                                item
+                            </a>
+                        </div>
                     </div>
-                    <a href=""><img src="/img/avatar.png" alt="Rudik" /></a>
+                    <%- include('header-avatar-button/index') %>
                 </div>
             </div>
         </div>

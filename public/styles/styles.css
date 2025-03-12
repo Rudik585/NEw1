@@ -10,3 +10,5 @@
 @import './home/credit-card/index.css';
 @import './home/upcoming-payments/index.css';
 @import './home/button-language.css';
+@import './home/button-avatar-menu/avatar-button.css';
+@import './home/button-avatar-menu/avatar-menu.css';

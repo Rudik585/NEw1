@@ -1,0 +1,31 @@
+.avatar-img__links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    background-color: #262626;
+    text-align: center;
+    row-gap: 5px;
+    padding: 10px 10px;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    display: none;
+}
+
+.avatar-img__link {
+    border-radius: 4px;
+    padding: 3px 3px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.avatar-img__link:hover {
+    background-color: #4a4a4a;
+    color: #00e377;
+}
+
+.avatar-img__links.avatar-active {
+    display: flex;
+}

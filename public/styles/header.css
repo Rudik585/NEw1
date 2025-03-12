@@ -62,13 +62,58 @@
     justify-content: center;
 }
 
-.header-img__radius {
+.header__button {
+    display: flex;
     padding: 5px 5px;
     color: white;
+    background-color: #262626;
+    border: none;
+    position: relative;
 }
 
-.header-img__radius:hover {
+.header__button:hover {
     background-color: #4a4a4a;
     border-radius: 5px;
     color: #00e377;
+}
+
+.header__button-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    right: 95px;
+    background-color: #262626;
+    border: 1px solid #4a4a4a;
+    border-radius: 4px;
+    padding: 5px 5px;
+    display: none;
+}
+
+.notification__items {
+    top: 35px;
+    right: 67px;
+}
+
+.settings__items {
+    top: 35px;
+    right: 37px;
+}
+
+.header__button-icon {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.header__button-icon:hover {
+    background-color: #4a4a4a;
+    color: #00e377;
+    border-radius: 5px;
+}
+
+.header__button-icons.header-active {
+    display: flex;
 }

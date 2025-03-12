@@ -1,4 +1,10 @@
-<button id="notification" class="header__button" href aria-label="notification">
+<button
+    id="notification-button"
+    class="header__button"
+    aria-expanded="false"
+    aria-controls="notification"
+    aria-label="open notifications"
+>
     <svg
         width="21"
         height="20"
@@ -28,8 +34,11 @@
         </defs>
     </svg>
 </button>
-<div id="notification-menu" class="header__button-icons notification__items">
-    <a href="#" class="header__button-icon notification__item"> item </a>
-    <a href="#" class="header__button-icon notification__item"> item </a>
-    <a href="#" class="header__button-icon notification__item"> item </a>
+<div
+    id="notification-dropdown"
+    class="header__button-icons notification__items"
+>
+    <a href="#" class="header__button-icon"> item </a>
+    <a href="#" class="header__button-icon"> item </a>
+    <a href="#" class="header__button-icon"> item </a>
 </div>

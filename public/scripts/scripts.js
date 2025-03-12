@@ -1,74 +1,86 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const button = document.querySelector('.button');
-    button.addEventListener('click', () => {
-        alert('Button was clicked!');
-    });
+    const languageButton = document.querySelector('#language-button');
+    const languageDropdown = document.querySelector('#languages-dropdown');
+    const profileButton = document.querySelector('#avatar-button');
+    const avatarDropdown = document.querySelector('#avatar-dropdown');
+    const messagesButton = document.querySelector('#messages-button');
+    const messagesDropdown = document.querySelector('#messages-dropdown');
+    const notificationButton = document.querySelector('#notification-button');
+    const notificationDropdown = document.querySelector(
+        '#notification-dropdown'
+    );
+    const settingsButton = document.querySelector('#settings-button');
+    const settingsDropdown = document.querySelector('#settings-dropdown');
 
-    const btn = document.querySelector('#language-switch');
-    const language = document.querySelector('#languages-dropdown');
-    const avatar = document.querySelector('#avatar');
-    const menu = document.querySelector('#avatar-details');
-    const messages = document.querySelector('#messages');
-    const messagesMenu = document.querySelector('#messages-menu');
-    const notification = document.querySelector('#notification');
-    const notificationMenu = document.querySelector('#notification-menu');
-    const settings = document.querySelector('#settings');
-    const settingsMenu = document.querySelector('#settings-menu');
-
-    btn.addEventListener('click', () => {
-        if (language.classList.contains('active') == true) {
-            language.classList.remove('active');
+    languageButton.addEventListener('click', () => {
+        if (languageDropdown.classList.contains('active') == true) {
+            languageDropdown.classList.remove('active');
         } else {
-            language.classList.add('active');
+            languageDropdown.classList.add('active');
         }
-        if (btn.classList.contains('active') == true) {
-            btn.classList.remove('active');
+        if (languageButton.classList.contains('active') == true) {
+            languageButton.classList.remove('active');
         } else {
-            btn.classList.add('active');
+            languageButton.classList.add('active');
         }
-        if (btn.getAttribute('aria-expanded') == 'true') {
-            btn.setAttribute('aria-expanded', 'false');
+        if (languageButton.getAttribute('aria-expanded') == 'true') {
+            languageButton.setAttribute('aria-expanded', 'false');
         } else {
-            btn.setAttribute('aria-expanded', 'true');
+            languageButton.setAttribute('aria-expanded', 'true');
         }
     });
 
-    avatar.addEventListener('click', () => {
-        if (menu.classList.contains('avatar-active') == true) {
-            menu.classList.remove('avatar-active');
+    profileButton.addEventListener('click', () => {
+        if (avatarDropdown.classList.contains('avatar-active') == true) {
+            avatarDropdown.classList.remove('avatar-active');
         } else {
-            menu.classList.add('avatar-active');
+            avatarDropdown.classList.add('avatar-active');
         }
-        if (avatar.classList.contains('avatar-active') == true) {
-            avatar.classList.remove('avatar-active');
+        if (profileButton.classList.contains('avatar-active') == true) {
+            profileButton.classList.remove('avatar-active');
         } else {
-            avatar.classList.add('avatar-active');
+            profileButton.classList.add('avatar-active');
         }
-        if (avatar.getAttribute('aria-expanded') == 'true') {
-            avatar.setAttribute('aria-expanded', 'false');
+        if (profileButton.getAttribute('aria-expanded') == 'true') {
+            profileButton.setAttribute('aria-expanded', 'false');
         } else {
-            avatar.setAttribute('aria-expanded', 'true');
-        }
-    });
-    messages.addEventListener('click', () => {
-        if (messagesMenu.classList.contains('header-active') == true) {
-            messagesMenu.classList.remove('header-active');
-        } else {
-            messagesMenu.classList.add('header-active');
+            profileButton.setAttribute('aria-expanded', 'true');
         }
     });
-    notification.addEventListener('click', () => {
-        if (notificationMenu.classList.contains('header-active') == true) {
-            notificationMenu.classList.remove('header-active');
+    messagesButton.addEventListener('click', () => {
+        if (messagesDropdown.classList.contains('header-active') == true) {
+            messagesDropdown.classList.remove('header-active');
         } else {
-            notificationMenu.classList.add('header-active');
+            messagesDropdown.classList.add('header-active');
+        }
+        if (messagesButton.getAttribute('aria-expanded') == 'true') {
+            messagesButton.setAttribute('aria-expanded', 'false');
+        } else {
+            messagesButton.setAttribute('aria-expanded', 'true');
         }
     });
-    settings.addEventListener('click', () => {
-        if (settingsMenu.classList.contains('header-active') == true) {
-            settingsMenu.classList.remove('header-active');
+    notificationButton.addEventListener('click', () => {
+        if (notificationDropdown.classList.contains('header-active') == true) {
+            notificationDropdown.classList.remove('header-active');
         } else {
-            settingsMenu.classList.add('header-active');
+            notificationDropdown.classList.add('header-active');
+        }
+        if (notificationButton.getAttribute('aria-expanded') == 'true') {
+            notificationButton.setAttribute('aria-expanded', 'false');
+        } else {
+            notificationButton.setAttribute('aria-expanded', 'true');
+        }
+    });
+    settingsButton.addEventListener('click', () => {
+        if (settingsDropdown.classList.contains('header-active') == true) {
+            settingsDropdown.classList.remove('header-active');
+        } else {
+            settingsDropdown.classList.add('header-active');
+        }
+        if (settingsButton.getAttribute('aria-expanded') == 'true') {
+            settingsButton.setAttribute('aria-expanded', 'false');
+        } else {
+            settingsButton.setAttribute('aria-expanded', 'true');
         }
     });
 });

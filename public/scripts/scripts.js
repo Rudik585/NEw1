@@ -31,10 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     avatarButton.addEventListener('click', () => {
-        if (avatarDropdown.classList.contains('avatar-active') == true) {
-            avatarDropdown.classList.remove('avatar-active');
+        if (avatarDropdown.classList.contains('active') == true) {
+            avatarDropdown.classList.remove('active');
         } else {
-            avatarDropdown.classList.add('avatar-active');
+            avatarDropdown.classList.add('active');
         }
         if (avatarButton.classList.contains('avatar-active') == true) {
             avatarButton.classList.remove('avatar-active');
@@ -48,10 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     messagesButton.addEventListener('click', () => {
-        if (messagesDropdown.classList.contains('header-active') == true) {
-            messagesDropdown.classList.remove('header-active');
+        if (messagesDropdown.classList.contains('active') == true) {
+            messagesDropdown.classList.remove('active');
         } else {
-            messagesDropdown.classList.add('header-active');
+            messagesDropdown.classList.add('active');
         }
         if (messagesButton.getAttribute('aria-expanded') == 'true') {
             messagesButton.setAttribute('aria-expanded', 'false');
@@ -60,10 +60,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     notificationButton.addEventListener('click', () => {
-        if (notificationDropdown.classList.contains('header-active') == true) {
-            notificationDropdown.classList.remove('header-active');
+        if (notificationDropdown.classList.contains('active') == true) {
+            notificationDropdown.classList.remove('active');
         } else {
-            notificationDropdown.classList.add('header-active');
+            notificationDropdown.classList.add('active');
         }
         if (notificationButton.getAttribute('aria-expanded') == 'true') {
             notificationButton.setAttribute('aria-expanded', 'false');
@@ -72,10 +72,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     settingsButton.addEventListener('click', () => {
-        if (settingsDropdown.classList.contains('header-active') == true) {
-            settingsDropdown.classList.remove('header-active');
+        if (settingsDropdown.classList.contains('active') == true) {
+            settingsDropdown.classList.remove('active');
         } else {
-            settingsDropdown.classList.add('header-active');
+            settingsDropdown.classList.add('active');
         }
         if (settingsButton.getAttribute('aria-expanded') == 'true') {
             settingsButton.setAttribute('aria-expanded', 'false');

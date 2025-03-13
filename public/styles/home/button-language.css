@@ -21,10 +21,6 @@
     transition: 0.5s;
 }
 
-.menu__button-details.active {
-    display: flex;
-}
-
 .menu__button-details {
     display: none;
     position: absolute;
@@ -54,4 +50,8 @@
 
 .button-details__styles:hover {
     background-color: #4a4a4a;
+}
+
+.active {
+    display: flex;
 }

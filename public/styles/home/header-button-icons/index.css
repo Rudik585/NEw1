@@ -29,7 +29,6 @@
     border: 1px solid #4a4a4a;
     border-radius: 4px;
     padding: 5px 5px;
-    display: none;
 }
 
 .notification__items {
@@ -54,8 +53,4 @@
     background-color: #4a4a4a;
     color: #00e377;
     border-radius: 5px;
-}
-
-.header__button-icons.header-active {
-    display: flex;
 }

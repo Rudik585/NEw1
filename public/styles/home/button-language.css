@@ -21,10 +21,6 @@
     transition: 0.5s;
 }
 
-.menu__button-details.active {
-    display: flex;
-}
-
 .menu__button-details {
     display: none;
     position: absolute;

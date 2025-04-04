@@ -1,6 +1,6 @@
 <button
     id="notification-button"
-    class="header__button"
+    class="header__button js-dropdown__button"
     aria-expanded="false"
     aria-controls="notification"
     aria-label="open notifications"
@@ -36,9 +36,11 @@
 </button>
 <div
     id="notification-dropdown"
-    class="header__button-icons notification__items"
+    class="header__button-icons notification__items dropdown-menu js-dropdown__container"
 >
-    <a href="#" class="header__button-icon"> item </a>
-    <a href="#" class="header__button-icon"> item </a>
-    <a href="#" class="header__button-icon"> item </a>
+    <div class="notification-dropdown__menu header-dropdown">
+        <a href="#" class="header__button-icon"> item </a>
+        <a href="#" class="header__button-icon"> item </a>
+        <a href="#" class="header__button-icon"> item </a>
+    </div>
 </div>

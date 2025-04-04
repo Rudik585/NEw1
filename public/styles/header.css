@@ -55,3 +55,8 @@
     height: auto;
     max-width: 142px;
 }
+
+.header-dropdown {
+    display: flex;
+    flex-direction: column;
+}

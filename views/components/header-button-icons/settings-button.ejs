@@ -1,6 +1,6 @@
 <button
     id="settings-button"
-    class="header__button"
+    class="header__button js-dropdown__button"
     aria-label="open profile settings"
     aria-expanded="false"
     aria-controls="settings"
@@ -28,8 +28,13 @@
         />
     </svg>
 </button>
-<div id="settings-dropdown" class="header__button-icons settings__items">
-    <a href="#" class="header__button-icon"> item </a>
-    <a href="#" class="header__button-icon"> item </a>
-    <a href="#" class="header__button-icon"> item </a>
+<div
+    id="settings-dropdown"
+    class="header__button-icons settings__items js-dropdown__container"
+>
+    <div class="settings-dropdown__menu header-dropdown">
+        <a href="#" class="header__button-icon"> item </a>
+        <a href="#" class="header__button-icon"> item </a>
+        <a href="#" class="header__button-icon"> item </a>
+    </div>
 </div>

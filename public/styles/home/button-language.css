@@ -51,7 +51,3 @@
 .button-details__styles:hover {
     background-color: #4a4a4a;
 }
-
-.active {
-    display: flex;
-}

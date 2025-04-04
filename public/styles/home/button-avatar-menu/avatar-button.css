@@ -9,7 +9,7 @@
     border-radius: 20px;
 }
 
-.avatar-active img {
+.menu__avatar-img.active img {
     border-radius: 20px;
     border: #00e377 1px solid;
 }

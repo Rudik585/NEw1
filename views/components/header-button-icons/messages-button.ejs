@@ -1,6 +1,6 @@
 <button
     id="messages-button"
-    class="header__button"
+    class="header__button js-dropdown__button"
     aria-label="open profile messages"
     aria-expanded="false"
     aria-controls="messages"
@@ -28,8 +28,13 @@
         />
     </svg>
 </button>
-<div id="messages-dropdown" class="header__button-icons">
-    <a href="#" class="header__button-icon messages__item"> item </a>
-    <a href="#" class="header__button-icon messages__item"> item </a>
-    <a href="#" class="header__button-icon messages__item"> item </a>
+<div
+    id="messages-dropdown "
+    class="header__button-icons dropdown-menu js-dropdown__container"
+>
+    <div class="messages-dropdown__menu header-dropdown">
+        <a href="#" class="header__button-icon messages__item"> item </a>
+        <a href="#" class="header__button-icon messages__item"> item </a>
+        <a href="#" class="header__button-icon messages__item"> item </a>
+    </div>
 </div>

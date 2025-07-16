@@ -1,5 +1,5 @@
 <div class="header-icons">
-    <a class="header__button" href aria-label="Search Page">
+    <button class="header__button" href aria-label="Search Page" type="button" onclick="overlayMenu.showModal()">
         <svg
             width="21"
             height="20"
@@ -15,7 +15,18 @@
                 stroke-linejoin="round"
             />
         </svg>
-    </a>
+    </button>
+    <dialog id="overlayMenu" >
+        <form class="model" method="dialog">
+            <button class="close-search">&times;</button>
+            <div class="search">
+                <div class="search-icons"></div>
+                <div class="input">
+                   <input type="text" placeholder="Serch">
+                </div>
+            </div>
+        </form>
+    </dialog>
     <%- include('messages-button') %>
     <%- include('notification-button') %>
     <%- include('settings-button') %>

@@ -1,5 +1,11 @@
 <div class="header-icons">
-    <button class="header__button" href aria-label="Search Page" type="button" onclick="overlayMenu.showModal()">
+    <button
+        class="header__button"
+        href
+        aria-label="Search Page"
+        type="button"
+        onclick="overlayMenu.showModal()"
+    >
         <svg
             width="21"
             height="20"
@@ -16,14 +22,43 @@
             />
         </svg>
     </button>
-    <dialog id="overlayMenu" >
+    <dialog id="overlayMenu">
         <form class="model" method="dialog">
-            <button class="close-search">&times;</button>
+            <div class="search-header">
+                <p class="search-header_title">Search</p>
+                <button class="search-header_close">
+                    <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M6 6L18 18"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M6 18L18 6"
+                            stroke="black"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </button>
+            </div>
             <div class="search">
-                <div class="search-icons"></div>
+                <button class="search-icons"></button>
                 <div class="input">
-                   <input type="text" placeholder="Serch">
+                    <input type="text" placeholder="Serch" />
                 </div>
+            </div>
+            <div class="search-footer_button">
+                <button class="footer_button-cansel">Cancel</button>
             </div>
         </form>
     </dialog>

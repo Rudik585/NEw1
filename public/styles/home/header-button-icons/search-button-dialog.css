@@ -1,0 +1,23 @@
+dialog,
+dialog::backdrop {
+    opacity: 0;
+    scale: 1.05;
+    transition-duration: 0.2s;
+    transition-behavior: allow-discrete;
+}
+
+dialog[open],
+dialog[open]::backdrop {
+    opacity: 1;
+    scale: 1;
+}
+
+dialog[open] {
+    width: 400px;
+    margin-right: initial;
+    margin-top: initial;
+    height: 100svh;
+    max-height: none;
+    border: none;
+    padding: 0;
+}

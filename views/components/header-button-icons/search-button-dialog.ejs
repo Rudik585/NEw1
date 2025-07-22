@@ -1,5 +1,5 @@
 <dialog id="overlayMenu">
-    <form class="model" id="header-searcch">
+    <form class="model" method="dialog">
         <div class="search-header">
             <p class="search-header_title">Search</p>
             <button class="search-header_close">
@@ -28,9 +28,9 @@
             </button>
         </div>
     </form>
-    <form>
+    <form id="header-searcch">
         <div class="search">
-            <button class="search-icons"></button>
+            <button class="search-icons" aria-label="search"></button>
             <div class="input">
                 <input type="text" placeholder="Serch" />
             </div>
@@ -38,7 +38,9 @@
     </form>
     <form>
         <div class="search-footer_button">
-            <button class="footer_button-cansel">Cancel</button>
+            <button class="footer_button-cansel" aria-label="Cancel">
+                Cancel
+            </button>
         </div>
     </form>
 </dialog>
